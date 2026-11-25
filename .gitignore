@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+
+# env
+.env
+.env.local
+.env.*.local
+
+# next.js
+.next/
+out/
+build/
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# vitest / coverage
+coverage/
+
+# logs
+*.log
+npm-debug.log*
+
+# specs / notas locales (no van a Git)
+docs/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
